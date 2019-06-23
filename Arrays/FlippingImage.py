@@ -1,5 +1,7 @@
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
+	#Time - O(m*n) , m = row size, n = column size
+	#Space - O(1)
         if len(A) == 0:
             return []
         row_len = len(A[0])

@@ -1,5 +1,7 @@
 class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
+	#Time - O(m*n), m = row size, n = column size of matrix.
+	#Space - O(m*n)
         if len(A) == 0:
             return []
         rows = len(A)
