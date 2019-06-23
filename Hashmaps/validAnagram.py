@@ -1,7 +1,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         #Time - O(n)
-        #Space - O(n)
+        #Space - O(1)
         seen = {}
         #Creating a hashmap of letters and count for one string
         for char in s:
