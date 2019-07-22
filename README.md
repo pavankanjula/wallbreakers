@@ -1,2 +1,2 @@
 # wallbreakers
-coding assignements
+Alogorithms and Data structures coding assignements
